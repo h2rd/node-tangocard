@@ -1,6 +1,6 @@
 # tangocard-node
 
-(Tangocard)[https://www.tangocard.com/] node.js sdk
+[Tangocard](https://www.tangocard.com/) node.js sdk
 
 
 ## Installation
