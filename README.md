@@ -9,6 +9,10 @@
 npm install node-tangocard
 ```
 
+## Api specifications
+
+https://github.com/tangocarddev/RaaS/blob/master/README.md
+
 ## Usage example
 
 ```javascript
