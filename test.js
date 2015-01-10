@@ -3,8 +3,8 @@ var expect = require('chai').expect
   , Tango = require('./tangocard');
 
 var tangoClient = new Tango({
-  name: 'AiromoTest'
-, key: 'GfiK4xnQZD76AxX1xDJ01kkNOhtDMcptVMXQLjjBQe759NJsoZ7vYh2SY0'
+  name: 'TangoTest'
+, key: '5xItr3dMDlEWAa9S4s7vYh7kQ01d5SFePPUoZZiK/vMfbo3A5BvJLAmD4tI='
 , domain: 'https://sandbox.tangocard.com'
 });
 
