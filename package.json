@@ -1,0 +1,29 @@
+{
+  "name": "node-tangocard",
+  "version": "1.0.0",
+  "description": "tangocard node.js simple sdk",
+  "main": "tangocard.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha -R spec --timeout 30000"
+  },
+  "contributors": [
+    "Igor Skrynkovskyy <skrynkovskyy@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/h2rd/node-tangocard.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/h2rd/node-tangocard/issues"
+  },
+  "homepage": "https://github.com/h2rd/node-tangocard",
+  "dependencies": {
+    "request": "^2.51.0"
+  },
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.1.0"
+  }
+}
