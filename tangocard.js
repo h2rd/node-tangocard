@@ -1,7 +1,8 @@
 var request = require('request')
-  , fs = require('fs');
+  , fs = require('fs')
+  , path = require('path');
 
-var certContent = fs.readFileSync('ca_cert/digicert_chain.pem');
+var certContent = fs.readFileSync(path.join(__dirname, 'ca_cert', 'digicert_chain.pem'));
 
 module.exports = function(options) {
   var token = new Buffer(options.name + ':' + options.key).toString('base64')
